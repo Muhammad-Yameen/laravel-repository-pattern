@@ -1,0 +1,35 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use App\Contracts\$CLASS_NAME$RepositoryInterface;
+use App\Models\$CLASS_NAME$;
+
+class $CLASS_NAME$Repository implements $CLASS_NAME$RepositoryInterface 
+{   
+    protected $model;
+    public function __construct($CLASS_NAME$ $model)
+    {
+        $this->model = $model;
+    }
+
+    public function all()
+    {
+        return $this->model->all();
+    }
+
+    public function paginate($num)
+    {
+        return $this->model->paginate($num);
+    }
+
+    public function getById($id)
+    {
+        return $this->model->findOrFail($id);
+    }
+
+    public function delete($id)
+    {
+        $this->model->destroy($id);
+    }   
+}

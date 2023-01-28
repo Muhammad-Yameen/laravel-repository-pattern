@@ -1,0 +1,19 @@
+{
+    "name": "contracts/repositories",
+    "description": "This package will create intefaces and repositories with resources and with resources. This library is capable to create a model if is not exists ",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Contract\\Repo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Contract\\Repo\\RepositoryServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}

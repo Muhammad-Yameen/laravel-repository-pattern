@@ -1,0 +1,11 @@
+<?php
+
+namespace $NAMESPACE$;
+
+use App\Contracts\$CLASS_NAME$RepositoryInterface;
+use App\Models\$CLASS_NAME$;
+
+class $CLASS_NAME$Repository implements $CLASS_NAME$RepositoryInterface 
+{
+ 
+}

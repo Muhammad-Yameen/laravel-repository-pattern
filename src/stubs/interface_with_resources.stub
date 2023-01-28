@@ -1,0 +1,11 @@
+<?php
+
+namespace $NAMESPACE$;
+
+interface $CLASS_NAME$RepositoryInterface
+{
+    public function all();
+    public function paginate($num);
+    public function getById($id);
+    public function delete($id);
+}
