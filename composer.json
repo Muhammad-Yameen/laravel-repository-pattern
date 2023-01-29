@@ -1,6 +1,6 @@
 {
     "name": "contracts/repositories",
-    "description": "This package will create intefaces and repositories with resources and with resources. This library is capable to create a model if is not exists ",
+    "description": "This package creates interfaces and repositories with resources and is capable of creating a model if it doesn't exist.",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -21,6 +21,5 @@
             ]
         }
     },
-    "minimum-stability": "dev",
-    "require": {}
+    "minimum-stability": "dev"
 }
