@@ -3,7 +3,7 @@
 
 To Install. 
 
-        composer require contracts/repositories
+        composer require contracts/repositories dev-master
 
 
 Create a new service provider and add it to the list of providers. 
