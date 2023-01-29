@@ -32,7 +32,12 @@ add the new service provider to the providers array in the config/app.php file.
 
 To create a repository and interface.
 
-        php artisan make:repo Post -r(optional)
+        php artisan make:repo Product
+
+Or if you want to create a repository and interface along with resources.
+
+        php artisan make:repo Product -r
+
 
 It requires your permission to create a model if it doesn't exist.
 
