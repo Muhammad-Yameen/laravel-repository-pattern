@@ -9,6 +9,7 @@
             "email": "mastoiyameen@gmail.com"
         }
     ],
+    "require": {},
     "autoload": {
         "psr-4": {
             "Contract\\Repo\\": "src/"
@@ -21,8 +22,5 @@
             ]
         }
     },
-    "minimum-stability": "dev",
-    "require": {
-        "php":"^7.4"
-    }
+    "minimum-stability": "dev"
 }
