@@ -1,10 +1,12 @@
 # laravel-repository-pattern
 
 
-Create the new Service Provider to the providers named 
-"php artisan  make:provider RepositoryServiceProvider"
+Create a new service provider and add it to the list of providers. 
 
-and then bind the repository and interface in register function.
+        php artisan  make:provider RepositoryServiceProvider
+
+
+Bind the repository and interface in the register function.
 
         $models = array(
             'CustomModel',
@@ -18,7 +20,7 @@ and then bind the repository and interface in register function.
     
  
 
-Finally, add the new Service Provider to the providers array in config/app.php.
+Finally, add the new service provider to the providers array in the config/app.php file.
 
     // ...other declared providers
     App\Providers\RepositoryServiceProvider::class,
