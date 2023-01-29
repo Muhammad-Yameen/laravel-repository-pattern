@@ -2,6 +2,13 @@
     "name": "contracts/repositories",
     "description": "This package will create intefaces and repositories with resources and with resources. This library is capable to create a model if is not exists ",
     "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Muhammad Yameen",
+            "email": "mastoiyameen@gmail.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Contract\\Repo\\": "src/"
